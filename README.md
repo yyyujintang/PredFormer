@@ -1,8 +1,7 @@
-# PredFormer: Transformers Are Effective Spatial-Temporal Predictive Learners
+# PredFormer: Video Prediction Transformers without Recurrence or Convolution
 
-Official repository for PredFormer: Transformers Are Effective Spatial-Temporal Predictive Learners. [Paper Link](https://arxiv.org/abs/2410.04733)
-
-*2025.03*: &nbsp; We add more dataset and baselines. We release PredFormer code and training scripts, please feel free to try!
+Official repository for PredFormer: Video Prediction Transformers without Recurrence or Convolution. [Arxiv](https://arxiv.org/abs/2410.04733) [Project Page](https://yyyujintang.github.io/predformer-project/)
+*2025.03*: &nbsp; We add more datasets and baselines. We release PredFormer code and training scripts, please feel free to try!
 
 ## Overview
 
