@@ -26,10 +26,10 @@ pip install tensorboard einops
 ## Overview
 
 - `data/:` contains Moving MNIST/Human3.6m/TaxiBJ/Weatherbench dataset. Download (tools/prepare_data).
-- `openstl/methods/PredFormer.py:` contains defined training method of PredFormer.
-- `openstl/models:` contains 9 PredFormer Variants including FullAttention, FacST, FacTS, BinaryTS, BinaryST, Triplet_TST, Triplet_STS,Quadruplet_TSST, Quadruplet_STTS. **Please modify openstl/models/__init__.py to choose specific PredFormer model.**
-- `scripts:` contains single GPU training scripts for Moving MNIST/Human3.6m/TaxiBJ/Weatherbench. We provide the script of best PredFormer model.
-- `configs` contains training configs for Moving MNIST/Human3.6m/TaxiBJ/Weatherbench. **Please modify Ndepth for different PredFormer model.**
+- `openstl/methods/PredFormer.py:` contains the defined training method of PredFormer.
+- `openstl/models:` contains 9 PredFormer Variants including FullAttention, FacST, FacTS, BinaryTS, BinaryST, Triplet_TST, Triplet_STS, Quadruplet_TSST, Quadruplet_STTS. **Please modify openstl/models/__init__.py to choose a specific PredFormer model.**
+- `scripts:` contains single GPU training scripts for Moving MNIST/Human3.6m/TaxiBJ/Weatherbench. We provide the script of the best PredFormer model.
+- `configs` contains training configs for Moving MNIST/Human3.6m/TaxiBJ/Weatherbench. **Please modify Ndepth for different PredFormer models.**
 
 ## Train
 
@@ -57,10 +57,10 @@ Our code is based on [OpenSTL](https://github.com/chengtan9907/OpenSTL). We sinc
 If you find this repository useful, please consider citing our paper:
 
 ```python
-@inproceedings{tang2024predformer,
-  title={PredFormer: Transformers Are Effective Spatial-Temporal Predictive Learners},
-  author={Tang, Yujin and Qi, Lu and Xie, Fei and Li, Xiangtai and Ma, Chao and Yang, Ming-Hsuan},
-  booktitle={Arxiv},
-  year={2024}
+@article{tang2024predformer,
+  title={Video Prediction Transformers without Recurrence or Convolution},
+  author={Yujin Tang and Lu Qi and Fei Xie and Xiangtai Li and Chao Ma and Ming-Hsuan Yang},
+  booktitle={arXiv preprint arxiv:2410.04733},
+  year={2025}
 }
 ```
