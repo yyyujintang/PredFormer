@@ -57,10 +57,10 @@ Our code is based on [OpenSTL](https://github.com/chengtan9907/OpenSTL). We sinc
 If you find this repository useful, please consider citing our paper:
 
 ```python
-@article{tang2024predformer,
+@inproceedings{tang2024predformer,
   title={Video Prediction Transformers without Recurrence or Convolution},
   author={Yujin Tang and Lu Qi and Fei Xie and Xiangtai Li and Chao Ma and Ming-Hsuan Yang},
   booktitle={arXiv preprint arxiv:2410.04733},
-  year={2025}
+  year={2024}
 }
 ```
