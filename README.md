@@ -1,4 +1,4 @@
-# (TMLR2026) Video Prediction Transformers without Recurrence or Convolution
+# [TMLR2026] Video Prediction Transformers without Recurrence or Convolution
 
 Official repository for PredFormer: Video Prediction Transformers without Recurrence or Convolution. [Arxiv](https://arxiv.org/abs/2410.04733) [Project Page](https://yyyujintang.github.io/predformer-project/)
 
